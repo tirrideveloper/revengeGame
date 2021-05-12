@@ -1,0 +1,958 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 16175 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Zeki/Desktop/revenge_game/revenge_game/revenge
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54368
+Successfully changed project path to: C:/Users/Zeki/Desktop/revenge_game/revenge_game/revenge
+C:/Users/Zeki/Desktop/revenge_game/revenge_game/revenge
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zeki/Desktop/revenge_game/revenge_game/revenge/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003066 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.2 MB.
+System memory in use after: 171.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.892100 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.109900 ms MarkObjects: 1.914900 ms  DeleteObjects: 0.421500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Character/theboss 1.prefab
+  artifactKey: Guid(b9be97c597d99f54baa943f747c01799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/theboss 1.prefab using Guid(b9be97c597d99f54baa943f747c01799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec61cb3ff78ad3dc9048e981375e4b9') in 0.498280 seconds
+  Import took 0.504563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Character/Animation/sol
+  artifactKey: Guid(bbe59782d29ce6b4bb6b48124252ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol using Guid(bbe59782d29ce6b4bb6b48124252ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977e0b9c2afe12c8674483adc0679488') in 0.011192 seconds
+  Import took 0.015472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.033197 seconds.
+  path: Assets/Character/Animation/ileri
+  artifactKey: Guid(d56d8693206c3cf4ca85a903f3b0d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/ileri using Guid(d56d8693206c3cf4ca85a903f3b0d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36ae46728b74e8b4d0492d4afdf50e') in 0.011382 seconds
+  Import took 0.014890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003910 seconds.
+  path: Assets/Character/Animation/ileri
+  artifactKey: Guid(d56d8693206c3cf4ca85a903f3b0d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/ileri using Guid(d56d8693206c3cf4ca85a903f3b0d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36ae46728b74e8b4d0492d4afdf50e') in 0.003025 seconds
+  Import took 0.006602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.622775 seconds.
+  path: Assets/Character/Animation/ileri 1
+  artifactKey: Guid(3319652c62b3b164c8aa3f26e4ef736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/ileri 1 using Guid(3319652c62b3b164c8aa3f26e4ef736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7363e947b738f5a65a78af45d1d5768d') in 0.011639 seconds
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.762374 seconds.
+  path: Assets/Character/Animation/geri
+  artifactKey: Guid(3319652c62b3b164c8aa3f26e4ef736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/geri using Guid(3319652c62b3b164c8aa3f26e4ef736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29388ab945e10e8494599b8f660c518e') in 0.011024 seconds
+  Import took 0.014936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.571199 seconds.
+  path: Assets/Character/Animation/sag
+  artifactKey: Guid(b077ea6e4c8f7f0439e6d9b1d649f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag using Guid(b077ea6e4c8f7f0439e6d9b1d649f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89a1d58e63a4484b9bf60fb50aaeca') in 0.013465 seconds
+  Import took 0.017252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002092 seconds.
+  path: Assets/Character/Animation/sag
+  artifactKey: Guid(b077ea6e4c8f7f0439e6d9b1d649f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag using Guid(b077ea6e4c8f7f0439e6d9b1d649f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89a1d58e63a4484b9bf60fb50aaeca') in 0.003166 seconds
+  Import took 0.006606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.572782 seconds.
+  path: Assets/Character/Animation/egilme
+  artifactKey: Guid(ee3748b1cec42c94a9d071999b22f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme using Guid(ee3748b1cec42c94a9d071999b22f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f33abfe9579213e1b7ceb16c0509b') in 0.009678 seconds
+  Import took 0.013930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009781 seconds.
+  path: Assets/Character/Animation/egilme
+  artifactKey: Guid(ee3748b1cec42c94a9d071999b22f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme using Guid(ee3748b1cec42c94a9d071999b22f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f33abfe9579213e1b7ceb16c0509b') in 0.003430 seconds
+  Import took 0.007000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.594014 seconds.
+  path: Assets/Character/Animation/genel
+  artifactKey: Guid(5b0b4ed9fc37b074cbc85784390c076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel using Guid(5b0b4ed9fc37b074cbc85784390c076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ae6a47f4b8589c95fdb7ff4a49acf') in 0.011444 seconds
+  Import took 0.015838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002777 seconds.
+  path: Assets/Character/Animation/genel
+  artifactKey: Guid(5b0b4ed9fc37b074cbc85784390c076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel using Guid(5b0b4ed9fc37b074cbc85784390c076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ae6a47f4b8589c95fdb7ff4a49acf') in 0.003192 seconds
+  Import took 0.009028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.110738 seconds.
+  path: Assets/Character/Animation/DarbeAlma.fbx
+  artifactKey: Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/DarbeAlma.fbx using Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64e8304256207cb922310e59fdb4a1c') in 0.025187 seconds
+  Import took 0.030220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Character/Animation/Sol_geri_kosma.fbx
+  artifactKey: Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_geri_kosma.fbx using Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841c87c8e9e9124066494318deaa0f3') in 0.017330 seconds
+  Import took 0.021637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Character/Animation/Sol_ileri_kosma.fbx
+  artifactKey: Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_ileri_kosma.fbx using Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98be9640985dd0ee335163681d15958') in 0.017346 seconds
+  Import took 0.022349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Character/Animation/Egilme_sola_yurume.fbx
+  artifactKey: Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_sola_yurume.fbx using Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e950cb0882ecdf9dda035887d8d001') in 0.017073 seconds
+  Import took 0.021691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Character/Animation/DarbeAlma.fbx
+  artifactKey: Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/DarbeAlma.fbx using Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64e8304256207cb922310e59fdb4a1c') in 0.007371 seconds
+  Import took 0.012063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Character/Animation/Egilme_saga_yurume.fbx
+  artifactKey: Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_saga_yurume.fbx using Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4940963e23917db7f6838901fa186f6') in 0.017089 seconds
+  Import took 0.021816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Character/Animation/Egilme_ates_etme.fbx
+  artifactKey: Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_ates_etme.fbx using Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f48d22b26413c3c3fe92374becc905') in 0.016363 seconds
+  Import took 0.021083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Character/Animation/Egilme_geri_yurume.fbx
+  artifactKey: Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_geri_yurume.fbx using Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495d254a6a297436f7e27499c3cdae79') in 0.014964 seconds
+  Import took 0.019615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Character/Animation/Sol_kosma.fbx
+  artifactKey: Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_kosma.fbx using Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41aeb07f0c33482a6ad1fe883d92b29') in 0.015693 seconds
+  Import took 0.021159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Character/Animation/NormalAtesEtme.fbx
+  artifactKey: Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/NormalAtesEtme.fbx using Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b9e67b2712220d9eb00473ce39daf') in 0.014468 seconds
+  Import took 0.018542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Character/Animation/Sag_geri_kosma.fbx
+  artifactKey: Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_geri_kosma.fbx using Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9882cd11e322d7b89598dcf0421590') in 0.015912 seconds
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Character/Animation/Egilme_ileri_yurume.fbx
+  artifactKey: Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_ileri_yurume.fbx using Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88713ae10769a16e6bdec79e0e59ce2c') in 0.014304 seconds
+  Import took 0.018725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Character/Animation/Sag_ileri_kosma.fbx
+  artifactKey: Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_ileri_kosma.fbx using Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a1513256da09c28114a059925b4aa') in 0.016398 seconds
+  Import took 0.020223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Character/Animation/Sag_kosma.fbx
+  artifactKey: Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_kosma.fbx using Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358ba578892339c4870d0365e0522e7d') in 0.015650 seconds
+  Import took 0.018876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.959636 seconds.
+  path: Assets/Character/Animation/DarbeAlma 1.fbx
+  artifactKey: Guid(97923fbd5d7097d409a11ee1d38e824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/DarbeAlma 1.fbx using Guid(97923fbd5d7097d409a11ee1d38e824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63eb7b463c02d75a9ff905b67507d8e') in 0.014530 seconds
+  Import took 0.019308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Character/Animation/Egilme_sola_yurume 1.fbx
+  artifactKey: Guid(c1aad734229a799418d1de618488248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_sola_yurume 1.fbx using Guid(c1aad734229a799418d1de618488248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d0b93800460e074c17fe491530a69c') in 0.014287 seconds
+  Import took 0.019707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Character/Animation/Sag_geri_kosma 1.fbx
+  artifactKey: Guid(07d1dd414d07fd24b87c93626569a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_geri_kosma 1.fbx using Guid(07d1dd414d07fd24b87c93626569a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0dbacf063380edf6eb265fb701bb97') in 0.012985 seconds
+  Import took 0.016699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Character/Animation/Sag_ileri_kosma 1.fbx
+  artifactKey: Guid(a7385d5eedd736a46806864ea2e65c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_ileri_kosma 1.fbx using Guid(a7385d5eedd736a46806864ea2e65c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6924448b4d00ee06bcde01962f42cb4e') in 0.014395 seconds
+  Import took 0.018297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Character/Animation/Egilme_saga_yurume 1.fbx
+  artifactKey: Guid(2e5c36efb1789634fb0f44f1657383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_saga_yurume 1.fbx using Guid(2e5c36efb1789634fb0f44f1657383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d19e428b6a8f6865b847ffe851e95b') in 0.018345 seconds
+  Import took 0.022804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Character/Animation/DarbeAlma 1.fbx
+  artifactKey: Guid(97923fbd5d7097d409a11ee1d38e824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/DarbeAlma 1.fbx using Guid(97923fbd5d7097d409a11ee1d38e824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63eb7b463c02d75a9ff905b67507d8e') in 0.007764 seconds
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Character/Animation/Sag_kosma 1.fbx
+  artifactKey: Guid(79611d96ff15b814aaa1cd20df303d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sag_kosma 1.fbx using Guid(79611d96ff15b814aaa1cd20df303d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc769896f73d41812fc51f7ae1d8005') in 0.014809 seconds
+  Import took 0.019125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Character/Animation/Egilme_ileri_yurume 1.fbx
+  artifactKey: Guid(cfcac40eb0433ef418e47f420bd0872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_ileri_yurume 1.fbx using Guid(cfcac40eb0433ef418e47f420bd0872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bca344dff492e03ab768dbb6fbc406c') in 0.014745 seconds
+  Import took 0.020248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Character/Animation/NormalAtesEtme 1.fbx
+  artifactKey: Guid(0087680a24280a245adcea35b0c01c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/NormalAtesEtme 1.fbx using Guid(0087680a24280a245adcea35b0c01c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7304c1e17841920407c30079ab270c87') in 0.014691 seconds
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Character/Animation/Sol_geri_kosma 1.fbx
+  artifactKey: Guid(9a3d0dee39148344d8a39ae88779d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_geri_kosma 1.fbx using Guid(9a3d0dee39148344d8a39ae88779d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb46c060f52e62b5586a93a53c15082f') in 0.014939 seconds
+  Import took 0.019169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Character/Animation/Egilme_geri_yurume 1.fbx
+  artifactKey: Guid(7fd57b517b9a1af479c5b525f3082b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_geri_yurume 1.fbx using Guid(7fd57b517b9a1af479c5b525f3082b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc904beaff7bb36c89fd693bcf363053') in 0.014355 seconds
+  Import took 0.018710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Character/Animation/Egilme_ates_etme 1.fbx
+  artifactKey: Guid(3ef725f8ce50a7f4392cb78ab1200b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Egilme_ates_etme 1.fbx using Guid(3ef725f8ce50a7f4392cb78ab1200b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc305a0b5a709e549559d01f64e0d760') in 0.013770 seconds
+  Import took 0.018385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.368486 seconds.
+  path: Assets/Character/Animation/Sol_ileri_kosma 1.fbx
+  artifactKey: Guid(9bae38500c2735e48a2fdfcfb8eb2c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_ileri_kosma 1.fbx using Guid(9bae38500c2735e48a2fdfcfb8eb2c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b16e90e87e7dc668364657b961f90f2') in 0.011629 seconds
+  Import took 0.015677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Character/Animation/Sol_kosma 1.fbx
+  artifactKey: Guid(894cbb5a1ca51874f8a4322c1bd4d364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/Sol_kosma 1.fbx using Guid(894cbb5a1ca51874f8a4322c1bd4d364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8144f5d2e4398ffe96099734e01b9a') in 0.012719 seconds
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 743.570418 seconds.
+  path: Assets/Character/Animation/boss_controller.controller
+  artifactKey: Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/boss_controller.controller using Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fc768089378473dcd8874d0ade4ffd') in 0.037559 seconds
+  Import took 0.043487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 3.514600 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.702000 ms  DeleteObjects: 0.431200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 4.280500 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.061800 ms MarkObjects: 3.436200 ms  DeleteObjects: 0.504600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6264.892474 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ates_etme.fbx
+  artifactKey: Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ates_etme.fbx using Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e347b2ba7d350830f9d2d90b19bb7a9a') in 0.044171 seconds
+  Import took 0.049453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx
+  artifactKey: Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx using Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b330618bdef10612e504fb9c4c38c44') in 0.008750 seconds
+  Import took 0.012549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx
+  artifactKey: Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx using Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebe59f5cc5e4808daea430a240e103b') in 0.009033 seconds
+  Import took 0.014444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx
+  artifactKey: Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx using Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d4ba6de2e6a15f9eedb187118a057b') in 0.016437 seconds
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx
+  artifactKey: Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx using Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae90bd975e9ea9430424b62e2efa18b') in 0.008750 seconds
+  Import took 0.014629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx
+  artifactKey: Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx using Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d4ba6de2e6a15f9eedb187118a057b') in 0.008161 seconds
+  Import took 0.012451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.951646 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ates_etme.fbx
+  artifactKey: Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ates_etme.fbx using Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c43bff03538b9c10634b02d04898b49') in 0.007552 seconds
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001697 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ates_etme.fbx
+  artifactKey: Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ates_etme.fbx using Guid(f6d54f0bf2bc0f14586c292500a842c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c43bff03538b9c10634b02d04898b49') in 0.007852 seconds
+  Import took 0.011899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.684617 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx
+  artifactKey: Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx using Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb0335e8386fe24a35504327e4133a6') in 0.010349 seconds
+  Import took 0.016692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001288 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx
+  artifactKey: Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_geri_yurume.fbx using Guid(5ef76c98beb450a4189e9d326bb55d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb0335e8386fe24a35504327e4133a6') in 0.008622 seconds
+  Import took 0.013169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.808599 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx
+  artifactKey: Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx using Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c3586301fee7486547a18204961ab9') in 0.008400 seconds
+  Import took 0.013474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001613 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx
+  artifactKey: Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_ileri_yurume.fbx using Guid(5e735eea2b1ecbc41ba3de5ede54764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c3586301fee7486547a18204961ab9') in 0.007989 seconds
+  Import took 0.012772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.306213 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx
+  artifactKey: Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx using Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c54cebc78ad22707401fe5ea34d1a4') in 0.007643 seconds
+  Import took 0.012271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002049 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx
+  artifactKey: Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_saga_yurume.fbx using Guid(efe9fd3637b48684eab64138f4a6223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c54cebc78ad22707401fe5ea34d1a4') in 0.009070 seconds
+  Import took 0.013314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.473082 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx
+  artifactKey: Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx using Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868493e70a0dfeddda8d6349d9d33061') in 0.007540 seconds
+  Import took 0.012037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002084 seconds.
+  path: Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx
+  artifactKey: Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/egilme/Egilme_sola_yurume.fbx using Guid(984999561cc1164429c237e6569c5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868493e70a0dfeddda8d6349d9d33061') in 0.007474 seconds
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.535356 seconds.
+  path: Assets/Character/Animation/genel/DarbeAlma.fbx
+  artifactKey: Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/DarbeAlma.fbx using Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8890e24dc68bde5d47950177e459d5') in 0.008665 seconds
+  Import took 0.013549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.198211 seconds.
+  path: Assets/Character/Animation/genel/DarbeAlma.fbx
+  artifactKey: Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/DarbeAlma.fbx using Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7255669fe194088756d2d97660ff07dc') in 0.008521 seconds
+  Import took 0.013495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001801 seconds.
+  path: Assets/Character/Animation/genel/DarbeAlma.fbx
+  artifactKey: Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/DarbeAlma.fbx using Guid(adb5ebd399e77e646a7feb24a570204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7255669fe194088756d2d97660ff07dc') in 0.007166 seconds
+  Import took 0.011295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.790166 seconds.
+  path: Assets/Character/Animation/genel/NormalAtesEtme.fbx
+  artifactKey: Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/NormalAtesEtme.fbx using Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e526998c63201e20822da1a644da48fa') in 0.014355 seconds
+  Import took 0.020613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.155659 seconds.
+  path: Assets/Character/Animation/genel/NormalAtesEtme.fbx
+  artifactKey: Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/NormalAtesEtme.fbx using Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed12ad1d44a895c0f3b26d2417a9887') in 0.008360 seconds
+  Import took 0.012798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002616 seconds.
+  path: Assets/Character/Animation/genel/NormalAtesEtme.fbx
+  artifactKey: Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/genel/NormalAtesEtme.fbx using Guid(f15d5fc545d82a543ad4ff481d1ffffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed12ad1d44a895c0f3b26d2417a9887') in 0.007715 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.201013 seconds.
+  path: Assets/Character/Animation/sag/Sag_geri_kosma.fbx
+  artifactKey: Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_geri_kosma.fbx using Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af5085eef67266fd5f9a7ce00d9e86') in 0.008787 seconds
+  Import took 0.014375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Character/Animation/sag/Sag_ileri_kosma.fbx
+  artifactKey: Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_ileri_kosma.fbx using Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f36fda531754f80afde1de1d68420c') in 0.012958 seconds
+  Import took 0.017318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Character/Animation/sag/Sag_kosma.fbx
+  artifactKey: Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_kosma.fbx using Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449e182b1eef93cf651b6903eac8c54f') in 0.009267 seconds
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.386967 seconds.
+  path: Assets/Character/Animation/sag/Sag_geri_kosma.fbx
+  artifactKey: Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_geri_kosma.fbx using Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac489a870a50c106fac41302050d3912') in 0.008814 seconds
+  Import took 0.013592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002409 seconds.
+  path: Assets/Character/Animation/sag/Sag_geri_kosma.fbx
+  artifactKey: Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_geri_kosma.fbx using Guid(3e87d9b9e315b8245802535e1375fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac489a870a50c106fac41302050d3912') in 0.007362 seconds
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.415894 seconds.
+  path: Assets/Character/Animation/sag/Sag_ileri_kosma.fbx
+  artifactKey: Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_ileri_kosma.fbx using Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10eaab903cd1e185ec8e46811671830') in 0.008547 seconds
+  Import took 0.013489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001302 seconds.
+  path: Assets/Character/Animation/sag/Sag_ileri_kosma.fbx
+  artifactKey: Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_ileri_kosma.fbx using Guid(97a7cab634329f643a98a8383e7b6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10eaab903cd1e185ec8e46811671830') in 0.007638 seconds
+  Import took 0.011886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.439016 seconds.
+  path: Assets/Character/Animation/sag/Sag_kosma.fbx
+  artifactKey: Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_kosma.fbx using Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f15b6ed038fec08f6a5f5021b0454eb') in 0.010361 seconds
+  Import took 0.015725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001166 seconds.
+  path: Assets/Character/Animation/sag/Sag_kosma.fbx
+  artifactKey: Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sag/Sag_kosma.fbx using Guid(cf78de41f8c39594c8fce081852306f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f15b6ed038fec08f6a5f5021b0454eb') in 0.006876 seconds
+  Import took 0.011194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.867180 seconds.
+  path: Assets/Character/CharacterSource/Boss_diffuse.png
+  artifactKey: Guid(414b2a07dba1dcf4cb7edaba3b5ad45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/CharacterSource/Boss_diffuse.png using Guid(414b2a07dba1dcf4cb7edaba3b5ad45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd91e979305eba2e5119e80c83ecf953') in 0.094679 seconds
+  Import took 0.098766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Character/CharacterSource/Boss_specular.png
+  artifactKey: Guid(26992a809e0e6134d80f75f842d655b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/CharacterSource/Boss_specular.png using Guid(26992a809e0e6134d80f75f842d655b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af0eef88fc018d9cd6dea074f96f83e') in 0.027956 seconds
+  Import took 0.031914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Character/CharacterSource/Boss_normal.png
+  artifactKey: Guid(bb47fb927a1b24f44b821fcdec42651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/CharacterSource/Boss_normal.png using Guid(bb47fb927a1b24f44b821fcdec42651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762635665c7b5d3d74780a4b0349f138') in 0.026943 seconds
+  Import took 0.030894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.314204 seconds.
+  path: Assets/Character/Animation/sol/Sol_geri_kosma.fbx
+  artifactKey: Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_geri_kosma.fbx using Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cb2175bdd9a91d4639e8b46e9ee7c7') in 0.008583 seconds
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Character/Animation/sol/Sol_ileri_kosma.fbx
+  artifactKey: Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_ileri_kosma.fbx using Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0ecf3e7ebb2a45a91ec522fc18964a') in 0.008380 seconds
+  Import took 0.012673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Character/Animation/sol/Sol_kosma.fbx
+  artifactKey: Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_kosma.fbx using Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2654505fa3da8a2d435a4e1a2a01a5') in 0.007525 seconds
+  Import took 0.012678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.311747 seconds.
+  path: Assets/Character/Animation/sol/Sol_geri_kosma.fbx
+  artifactKey: Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_geri_kosma.fbx using Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4eec8a00799fc46fd134a0413804fc') in 0.009172 seconds
+  Import took 0.014132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002001 seconds.
+  path: Assets/Character/Animation/sol/Sol_geri_kosma.fbx
+  artifactKey: Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_geri_kosma.fbx using Guid(8b5654cb25c3fd843a54eddbfef6425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4eec8a00799fc46fd134a0413804fc') in 0.007634 seconds
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.955543 seconds.
+  path: Assets/Character/Animation/sol/Sol_ileri_kosma.fbx
+  artifactKey: Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_ileri_kosma.fbx using Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee835241d4b524aa2865861b41d555ed') in 0.008162 seconds
+  Import took 0.013075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002122 seconds.
+  path: Assets/Character/Animation/sol/Sol_ileri_kosma.fbx
+  artifactKey: Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_ileri_kosma.fbx using Guid(e9f48eb6efba7d443aa9163947ace556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee835241d4b524aa2865861b41d555ed') in 0.007243 seconds
+  Import took 0.011582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.066511 seconds.
+  path: Assets/Character/Animation/sol/Sol_kosma.fbx
+  artifactKey: Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_kosma.fbx using Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f8696c77d347e5d741fd1c08fd338') in 0.007962 seconds
+  Import took 0.012350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002320 seconds.
+  path: Assets/Character/Animation/sol/Sol_kosma.fbx
+  artifactKey: Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/sol/Sol_kosma.fbx using Guid(0292fe3aea3f7ae47811dcbc4fa1d977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f8696c77d347e5d741fd1c08fd338') in 0.007097 seconds
+  Import took 0.011354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.808201 seconds.
+  path: Assets/Character/Animation/boss_controller.controller
+  artifactKey: Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/boss_controller.controller using Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34894bcc61f5e3bc6b3e9bff268b810b') in 0.020617 seconds
+  Import took 0.025007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.300993 seconds.
+  path: Assets/Character/Animation/boss_controller.controller
+  artifactKey: Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animation/boss_controller.controller using Guid(14812d4cfafd6964abd977f211ce4a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f823b69f89cdb8b9ab9bbcf900a19bdf') in 0.033334 seconds
+  Import took 0.039350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 3.456400 ms (FindLiveObjects: 0.210800 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.454300 ms  DeleteObjects: 0.679100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.573100 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.800100 ms  DeleteObjects: 0.447100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 2.452500 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.651600 ms  DeleteObjects: 0.425400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 2.769000 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.028300 ms  DeleteObjects: 0.516800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 3.458400 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.583600 ms  DeleteObjects: 0.407600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 3.000000 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.192600 ms  DeleteObjects: 0.390900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
